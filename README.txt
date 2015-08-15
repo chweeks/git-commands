@@ -59,5 +59,5 @@ $ git checkout HEAD <file>                  | Discard local changes in <file>
 $ git revert <commit>                       | Revert a <commit> (replace with new one)
 $ git reset --hard <commit>                 | Reset HEAD to previous <commit> and discard new changes since <commit>
 $ git reset <commit>                        | Reset HEAD to previous <commit> keep new changes as unstaged
-$ git reset --keep <commit>                 | Reset Head to preivous <commit> keep new changes asstaged
+$ git reset --keep <commit>                 | Reset Head to preivous <commit> keep new changes as staged
                                             |
