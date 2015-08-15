@@ -18,4 +18,9 @@ $ git commit --all                          | Commit all local changes in tracke
 $ git commit                                | Commit staged changes
 $ git commit -m 'text'                      | Commit staged changes with comment 'text'
 $ git commit --amend                        | Change last commit
+                                            |
+Commit History:
 
+$ git log                                   | Shows all commits (newest-oldest)
+$ git log-p <file>                          | Shows changes to <file>
+$ git blame <file>                          | Who, what and when <file> changed
