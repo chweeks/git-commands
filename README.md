@@ -24,3 +24,12 @@ Commit History:
 $ git log                                   | Shows all commits (newest-oldest)
 $ git log-p <file>                          | Shows changes to <file>
 $ git blame <file>                          | Who, what and when <file> changed
+                                            |
+Branches:
+
+$ git branch -av                            | List all branches
+$ git checkout <branch>                     | Change to <branch> 
+$ git branch <new-branch>                   | Create new <branch> 
+$ git checkout --track <remote/branch>      | Create tracking <branch> from <remote> branch
+$ git branch -d <branch>                    | Delete local <branch>
+                                            | 
