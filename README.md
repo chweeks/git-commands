@@ -43,3 +43,21 @@ $ git pull <remote> <branch>                | Download all changes from <remote>
 $ git push <remote> <branch>                | Publish local changes to repo
 $ git branch -dr <remote/branch>            | Delete <branch> on <remote>
                                             |
+Merge:
+
+$ git merge <branch>                        | Merge <branch> into HEAD
+$ git rebase <branch>                       | Rebase HEAD onto <branch>
+$ git rebase --abort                        | Abort a rebase                             
+$ git add <resolved-file>                   | Add manually resolved files
+$ git rm <resolved-file>                    | Remove manually resolved files
+                                            |
+
+Undo:
+
+$ git reset --hard HEAD                     | Discard all local changes in working directory
+$ git checkout HEAD <file>                  | Discard local changes in <file>
+$ git revert <commit>                       | Revert a <commit> (replace with new one)
+$ git reset --hard <commit>                 | Reset HEAD to previous <commit> and discard new changes since <commit>
+$ git reset <commit>                        | Reset HEAD to previous <commit> keep new changes as unstaged
+$ git reset --keep <commit>                 | Reset Head to preivous <commit> keep new changes asstaged
+                                            |
