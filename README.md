@@ -33,3 +33,13 @@ $ git branch <new-branch>                   | Create new <branch>
 $ git checkout --track <remote/branch>      | Create tracking <branch> from <remote> branch
 $ git branch -d <branch>                    | Delete local <branch>
                                             | 
+Update & Publish:
+
+$ git remote -v                             | List all current remotes
+$ git remote show <remote>                  | Show <remote> info
+$ git remote add <name> <url>               | Add new remote repo with <name> to <url>
+$ git fetch <remote>                        | Download all changes from <remote> but don't add to HEAD
+$ git pull <remote> <branch>                | Download all changes from <remote> and merge with HEAD
+$ git push <remote> <branch>                | Publish local changes to repo
+$ git branch -dr <remote/branch>            | Delete <branch> on <remote>
+                                            |
